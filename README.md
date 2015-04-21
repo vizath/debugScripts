@@ -1,2 +1,4 @@
-# debugScripts
-Some utils scripts I use to debug
+# Welcome on my turf
+Here some script I use quite often.
+
+Take them, use them, or laugh at them. It's up to you :)
