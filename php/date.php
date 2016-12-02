@@ -62,3 +62,18 @@ function option($value, $label, $selected_value) {
 	</select>
 	<input type="submit">
 </form>
+
+<br><br>
+<pre style="font-size:120%; margin-left:100px;">
+<?php
+	require_once('PasswordGenerator.php');
+	echo PasswordGenerator::getAlphaNumericPassword(15) . "<br><br>";
+	echo PasswordGenerator::getAlphaNumericPassword(15) . "<br><br>";
+	echo PasswordGenerator::getAlphaNumericPassword(15) . "<br><br>";
+	echo PasswordGenerator::getAlphaNumericPassword(15) . "<br><br>";
+	echo PasswordGenerator::getAlphaNumericPassword(15) . "<br><br>";
+	echo PasswordGenerator::getAlphaNumericPassword(15) . "<br><br>";
+	echo PasswordGenerator::getAlphaNumericPassword(15) . "<br><br>";
+	echo PasswordGenerator::getAlphaNumericPassword(15) . "<br><br>";
+?>
+</pre>
